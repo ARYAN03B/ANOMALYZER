@@ -15,7 +15,24 @@ Anomalyzer is a Network Traffic Analyzer (NTA) with advanced packet sniffing, ne
 - Scapy (Network packet manipulation)
 
 ## Installation
-# Clone the repository:
+### 1. Clone the repository:
 ```bash
 git clone https://github.com/ARYAN03B/anomalyzer.git
 cd anomalyzer
+```
+### 2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+### 3. Install and configure Suricata:
+```bash
+sudo apt install suricata
+sudo suricata-update
+```
+### 4. Configure Suricata:
+Place your Suricata configuration file (suricata.yaml) in the config directory.
+
+### 5. Run the application (with sudo):
+```bash
+sudo python3 anomalyzer.py
+```
