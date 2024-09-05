@@ -15,7 +15,7 @@ Anomalyzer is a Network Traffic Analyzer (NTA) with advanced packet sniffing, ne
 - Scapy (Network packet manipulation)
 
 ## Installation
-### 1. Clone the repository:
+# Clone the repository:
 ```bash
 git clone https://github.com/ARYAN03B/anomalyzer.git
 cd anomalyzer
