@@ -27,7 +27,6 @@ pip install -r requirements.txt
 ### 3. Install and configure Suricata:
 ```bash
 sudo apt install suricata
-sudo suricata-update
 ```
 ### 4. Configure Suricata:
 Place your Suricata configuration file (suricata.yaml) in the config directory.
